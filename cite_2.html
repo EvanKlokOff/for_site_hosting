@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подробная информация</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #e9f5f9;
+            color: #333;
+        }
+        
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #ecf0f1;
+            margin: 0;
+            font-size: 2.2em;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+            margin-top: 30px;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            font-size: 1.05em;
+        }
+        
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .feature-card {
+            flex: 1;
+            min-width: 250px;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-card h3 {
+            color: #3498db;
+            margin-top: 0;
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: #2c3e50;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #3498db;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 40px;
+        }
+        
+        .highlight {
+            background-color: #fffde7;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Подробная информация</h1>
+    </header>
+    
+    <div class="container">
+        <h2>Наши преимущества</h2>
+        <p>Мы предлагаем <span class="highlight">уникальные решения</span>, которые помогут вашему бизнесу выйти на новый уровень.</p>
+        
+        <div class="features">
+            <div class="feature-card">
+                <h3>Инновации</h3>
+                <p>Используем самые современные технологии и подходы для решения ваших задач.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Опыт</h3>
+                <p>Более 10 лет успешной работы в различных отраслях и сферах бизнеса.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Поддержка</h3>
+                <p>Круглосуточная техническая поддержка и сопровождение наших клиентов.</p>
+            </div>
+        </div>
+        
+        <h2>Как мы работаем</h2>
+        <p>Наш процесс работы включает несколько этапов, каждый из которых мы тщательно прорабатываем:</p>
+        <ol>
+            <li>Анализ ваших потребностей</li>
+            <li>Разработка индивидуального решения</li>
+            <li>Тестирование и доработка</li>
+            <li>Внедрение и обучение</li>
+            <li>Постоянная поддержка</li>
+        </ol>
+        
+        <a href="index.html" class="back-button">Вернуться на главную</a>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Наша компания. Все права защищены. | Контакты: info@example.com</p>
+    </footer>
+</body>
+</html>
